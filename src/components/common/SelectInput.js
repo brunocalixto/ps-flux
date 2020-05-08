@@ -19,7 +19,7 @@ function SelectInput(props) {
           <option value="" />
           {props.options.split(",").map((option, index) => {
             return (
-              <option key={index} value={index}>
+              <option key={index} value={index + 1}>
                 {option}
               </option>
             );
