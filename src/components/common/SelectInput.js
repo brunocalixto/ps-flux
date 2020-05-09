@@ -15,6 +15,7 @@ function SelectInput(props) {
           name={props.name}
           onChange={props.onChange}
           className="form-control"
+          value={props.value}
         >
           <option value="" />
           {props.options.split(",").map((option, index) => {

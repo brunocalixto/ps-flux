@@ -21,6 +21,7 @@ function CourseForm(props) {
         name="authorId"
         options="Cory House,Scott Allen, Bruno Calixto"
         onChange={props.onChange}
+        value={props.course.authorId}
         error={props.errors.authorId}
       />
 
